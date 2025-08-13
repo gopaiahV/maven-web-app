@@ -5,7 +5,7 @@ node ('built-in')
     {
     git credentialsId: 'github-credentials', url: 'https://github.com/gopaiahV/maven-web-app.git'
     }
-    stage('Build')
+    stage('Build stage')
     {
         sh "${mavenHome}/bin/mvn clean package"
     }
