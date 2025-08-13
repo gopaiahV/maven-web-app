@@ -1,4 +1,4 @@
-node ('built-n')
+node ('built-in')
 {
     def mavenHome = tool name : "maven-3.9.5"
     stage('checkout code')
