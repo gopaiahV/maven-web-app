@@ -1,7 +1,7 @@
 node ('built-in')
 {
     def mavenHome = tool name : "maven-3.9.5"
-    stage('checkout code')
+    stage('checkout the code')
     {
     git credentialsId: 'github-credentials', url: 'https://github.com/gopaiahV/maven-web-app.git'
     }
